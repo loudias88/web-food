@@ -10,15 +10,13 @@ def exibir_opcoes():
     print('4. Sair\n')
 
 def finalizar_app():
-    os.system('cls')
-    # os.system('clear') 
+    os.system('clear') 
     print('Finalizando o app')
 
 
 def escolher_opcao():
     opcao_escolhida = int(input('Escolha uma opção: '))
-    # opcao_escolhida = int(opcao_escolhida)
-
+    
     if opcao_escolhida == 1: 
         print('Cadastrar restaurante')
     elif opcao_escolhida == 2: 
